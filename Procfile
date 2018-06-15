@@ -1,0 +1,1 @@
+worker: node thiccBot.js
