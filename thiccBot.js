@@ -9,20 +9,16 @@ bot.on('message', message => {
   let msg = message.content.toUpperCase();
   let prefix = '>'
 
-  if (bot.user.id === message.author.id) { return }
-
   //Commands
 
   if (msg === prefix + 'THICC') {
     message.channel.send('Zucc is Thicc')
   }
 
-  
-
 //Runs when the bot turns on
 bot.on('ready', () => {
   console.log('Thiccer than a bowl of pudding')
-    bot.user.setStatus('online')
+  bot.user.setStatus('online')
 })
 
 //Login
