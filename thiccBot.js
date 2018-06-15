@@ -28,6 +28,10 @@ bot.on('message', message => {
 
   //Commands
 
+  if (msg === prefix + 'THICC?') {
+    message.channel.send('Zucc is Thicc')
+  }
+
   ///Money
   if (msg === prefix + 'THICC LIST') {
     message.channel.send({embed:{
