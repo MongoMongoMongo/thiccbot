@@ -22,6 +22,7 @@ bot.on('message', message => {
 //Runs when the bot turns on
 bot.on('ready', () => {
   console.log('Thiccer than a bowl of pudding')
+    bot.user.setStatus('online')
 })
 
 //Login
