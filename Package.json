@@ -7,7 +7,6 @@
     "start": "node thiccBot.js"
   },
   "dependencies": {
-    "discord.js": "11.3.0",
-    "fs": "10.4.0"
+    "discord.js": "11.3.0"
   }
 }
