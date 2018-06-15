@@ -13,7 +13,7 @@ bot.on('message', message => {
 
   //Commands
 
-  if (msg === prefix + 'THICC?') {
+  if (msg === prefix + 'THICC') {
     message.channel.send('Zucc is Thicc')
   }
 
